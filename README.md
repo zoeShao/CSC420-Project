@@ -4,6 +4,10 @@
 Comprehensive perception of the surrounding environment is one of the most crucial tasks in autonomous driving scenario. Our goal is to detect various objects, including cars and pedestrians, as well as changes in their positions.
 
 ### Getting Started
+__Mounted on google drive:__
+  * Download and upload [preprocessor.ipynb](https://github.com/zoeShao/CSC420-Project/blob/master/preprocessor.ipynb) and [project.ipynb](https://github.com/zoeShao/CSC420-Project/blob/master/project.ipynb) on your google drive.
+  * Open [preprocessor.ipynb](https://github.com/zoeShao/CSC420-Project/blob/master/preprocessor.ipynb) and follow the instructions to download and preprocess the KITTI dataset.
+  * Wait for the file to upload on drive and then open [project.ipynb](https://github.com/zoeShao/CSC420-Project/blob/master/project.ipynb).
 
 ## 1. Detect objects
 We implemented SqueezeDet to detect objects and their bounding boxes described in this paper: *SqueezeDet: Unified, Small, Low Power Fully Convolutional Neural Networks for Real-Time Object Detection for Autonomous Driving* https://arxiv.org/abs/1612.01051. 
