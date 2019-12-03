@@ -162,10 +162,10 @@ if __name__ == "__main__":
             # delete the pair from our score list, as they are already matched
             del dice_scores[0]
             num_scores -= 1
-            i = 0
 
             # remove all scores associated with either matched patch
             # for example if we matched (3,5), then pairs like (3,4) or (1,5) should be dropped
+            i = 0
             while i < num_scores:
                 item = dice_scores[i]
                 pair = item[0]
